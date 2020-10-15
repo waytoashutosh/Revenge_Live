@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Begin.login_signup_Controller">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="log_in" layoutX="75.0" layoutY="75.0" mnemonicParsing="false" onAction="#log_in_listener" text="Log In" textAlignment="CENTER" />
+            <Button fx:id="sign_up" layoutX="71.0" layoutY="108.0" mnemonicParsing="false" onAction="#sign_up_listener" text="Sign Up" />
+         </children></Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
