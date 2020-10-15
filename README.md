@@ -1,6 +1,8 @@
 # Revenge_Live
 AVISHKAR 2K20
 
+
+
 ## Basic Features:
 
 ### User
@@ -19,7 +21,9 @@ AVISHKAR 2K20
 * [ ] See separate chat (subscribers and all users).
 
 
-## Advanced Features
+
+
+## Advanced Features:
 * [ ] Platform Home Page.
 
 ### User
