@@ -21,7 +21,7 @@ public class login_signup_Controller {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        stage.setScene(new Scene(root));
+        stage.setScene(new Scene(root,700,500));
 
     }
 

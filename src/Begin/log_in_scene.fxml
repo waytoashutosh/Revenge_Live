@@ -3,12 +3,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Begin.LogInScene_Controller">
+
+<Pane prefHeight="345.0" prefWidth="352.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Begin.LogInScene_Controller">
    <children>
-      <PasswordField fx:id="password_id" layoutX="226.0" layoutY="200.0" onAction="#password_listener" promptText="Password" />
-      <TextField fx:id="user_id" layoutX="226.0" layoutY="158.0" onAction="#user_id_listener" promptText="User Name" />
-      <Button fx:id="log_in_id" layoutX="275.0" layoutY="247.0" mnemonicParsing="false" onAction="#log_in_listener" text="Log In" />
-      <Label layoutX="236.0" layoutY="105.0" style="-fx-font-size: 17;" text="Welcome Buddy!" textFill="#71dd50" />
-      <Button fx:id="back_id" layoutX="280.0" layoutY="283.0" mnemonicParsing="false" onAction="#back_listener" text="Back" />
+      <PasswordField fx:id="password_id" layoutX="104.0" layoutY="146.0" onAction="#password_listener" promptText="Password" />
+      <TextField fx:id="user_id" layoutX="105.0" layoutY="105.0" onAction="#user_id_listener" promptText="User Name" />
+      <Button fx:id="log_in_id" layoutX="155.0" layoutY="188.0" mnemonicParsing="false" onAction="#log_in_listener" text="Log In" />
+      <Label layoutX="115.0" layoutY="43.0" style="-fx-font-size: 17;" text="Welcome Buddy!" textFill="#71dd50" />
+      <Button fx:id="back_id" layoutX="158.0" layoutY="229.0" mnemonicParsing="false" onAction="#back_listener" text="Back" />
    </children>
 </Pane>

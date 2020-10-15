@@ -42,10 +42,10 @@ public class LogInScene_Controller {
         Stage stage = (Stage) back_id.getScene().getWindow();
         Parent root = null;
         try {
-            root = FXMLLoader.load(getClass().getResource("login.fxml"));
+            root = FXMLLoader.load(getClass().getResource("log_in_sign_up.fxml"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        stage.setScene(new Scene(root));
+        stage.setScene(new Scene(root,700,500));
     }
 }
