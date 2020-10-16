@@ -23,6 +23,7 @@ public class LogInScene_Controller {
 
     public void password_listener(ActionEvent actionEvent) {
         entered_pass=password_id.getText();
+        //some random comment
 
     }
 
