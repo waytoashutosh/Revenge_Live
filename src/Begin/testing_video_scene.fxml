@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Begin.testing_video_controller">
+   <bottom>
+      <Button fx:id="start_stream_id" mnemonicParsing="false" onAction="#start_stream_listener" text="Start Stream" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <ImageView fx:id="video_here_id" fitHeight="279.0" fitWidth="523.0"   pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

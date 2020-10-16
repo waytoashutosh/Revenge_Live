@@ -9,6 +9,7 @@
          <children>
             <Button fx:id="log_in" layoutX="75.0" layoutY="75.0" mnemonicParsing="false" onAction="#log_in_listener" text="Log In" textAlignment="CENTER" />
             <Button fx:id="sign_up" layoutX="71.0" layoutY="108.0" mnemonicParsing="false" onAction="#sign_up_listener" text="Sign Up" />
+            <Button fx:id="test_video" layoutX="64.0" layoutY="141.0" mnemonicParsing="false" onAction="#test_video_listener" text="Test Video" />
          </children></Pane>
    </children>
    <columnConstraints>
