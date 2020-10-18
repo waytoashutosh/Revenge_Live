@@ -26,7 +26,14 @@ public class login_signup_Controller {
     }
 
     public void sign_up_listener(ActionEvent actionEvent) {
-
+        Stage stage = (Stage) log_in.getScene().getWindow();
+        Parent root = null;
+        try {
+            root = FXMLLoader.load(getClass().getResource("signup.fxml"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        stage.setScene(new Scene(root,700,500));
 
     }
 }
