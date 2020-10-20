@@ -42,7 +42,16 @@ public class LogInScene_Controller {
             if(res.next()){
                 forconfirmation=res.getString("password");
                 if(forconfirmation.equals(entered_pass)){
-                    JOptionPane.showMessageDialog(null, "WELCOME ");
+                    Stage stage = (Stage) log_in_id.getScene().getWindow();
+                    Parent root = null;
+                    try {
+                        root = FXMLLoader.load(getClass().getResource("dashboard.fxml"));
+                        stage.setTitle("Welcome to DashBoard!");
+                        stage.setScene(new Scene(root,700,500));
+                        //JOptionPane.showMessageDialog(null, "WELCOME BACK"+res.getString("fname"));
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 }
                 else{
                     JOptionPane.showMessageDialog(null, "INCORRECT PASSWORD.");
