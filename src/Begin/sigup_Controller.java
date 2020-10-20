@@ -1,11 +1,16 @@
 package Begin;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 import javax.swing.*;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -50,7 +55,17 @@ public class sigup_Controller {
 
                     System.out.println("PST executed");
                     pst.executeUpdate();
-                    JOptionPane.showMessageDialog(null, "REGISTER SUCCESSFULLY");
+                    Parent root = null;
+                    try {
+                        Stage stage = (Stage) signupBT.getScene().getWindow();
+                        root = FXMLLoader.load(getClass().getResource("dashboard.fxml"));
+                        stage.setTitle("Welcome to DashBoard!");
+                        stage.setScene(new Scene(root,700,500));
+                        JOptionPane.showMessageDialog(null, "REGISTER SUCCESSFULLY");
+                        //JOptionPane.showMessageDialog(null, "WELCOME "+res.getString("fname"));
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 }
 
             }
