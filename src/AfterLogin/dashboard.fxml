@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AfterLogin.dashboard_Controller">
+    <children>
+        <Pane prefHeight="322.0" prefWidth="455.0">
+         <children>
+            <Button fx:id="stream_id" layoutX="139.0" layoutY="124.0" mnemonicParsing="false" onAction="#stream_listener" text="Stream" />
+            <Button fx:id="watch_id" layoutX="265.0" layoutY="124.0" mnemonicParsing="false" onAction="#watch_listener" text="Watch" />
+            <Button fx:id="back_id" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back_listener" text="Back" />
+         </children></Pane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>

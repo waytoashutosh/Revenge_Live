@@ -58,7 +58,7 @@ public class sigup_Controller {
                     Parent root = null;
                     try {
                         Stage stage = (Stage) signupBT.getScene().getWindow();
-                        root = FXMLLoader.load(getClass().getResource("dashboard.fxml"));
+                        root = FXMLLoader.load(getClass().getResource("../AfterLogin/dashboard.fxml"));
                         stage.setTitle("Welcome to DashBoard!");
                         stage.setScene(new Scene(root,700,500));
                         JOptionPane.showMessageDialog(null, "REGISTER SUCCESSFULLY");

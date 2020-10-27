@@ -45,7 +45,7 @@ public class LogInScene_Controller {
                     Stage stage = (Stage) log_in_id.getScene().getWindow();
                     Parent root = null;
                     try {
-                        root = FXMLLoader.load(getClass().getResource("dashboard.fxml"));
+                        root = FXMLLoader.load(getClass().getResource("../AfterLogin/dashboard.fxml"));
                         stage.setTitle("Welcome to DashBoard!");
                         stage.setScene(new Scene(root,700,500));
                         //JOptionPane.showMessageDialog(null, "WELCOME BACK"+res.getString("fname"));
