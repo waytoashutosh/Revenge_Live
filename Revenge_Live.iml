@@ -10,31 +10,31 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx-swt.jar!/" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.base.jar!/" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.controls.jar!/" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.media.jar!/" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.swing.jar!/" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx-swt.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.base.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.controls.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.media.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.swing.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.base" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.controls" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.fxml" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.graphics" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.media" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.swing" />
-          <root url="jar://$USER_HOME$/JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.web" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.base" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.controls" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.fxml" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.graphics" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.media" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.swing" />
+          <root url="jar://$MODULE_DIR$/../../JAVA_FX_FILES/javafx-sdk-11.0.2/lib/src.zip!/javafx.web" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.21/mysql-connector-java-8.0.21.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../mysql-connector-java-8.0.21/mysql-connector-java-8.0.21.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
